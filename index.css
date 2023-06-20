@@ -10,12 +10,13 @@
 }
 
 .construction{
+
     width: 400px;
     height: 300px;
-    animation: animate 8s infinite;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease;
+    animation: animate 3.5s infinite;
     animation-direction: alternate;
+    animation-fill-mode:backwards;
+    animation-timing-function: ease;
     opacity: 0;
 
 animation-delay: 0.1s;}
@@ -24,27 +25,14 @@ animation-delay: 0.1s;}
     
 
     0%{
-        transform: rotate(0deg);
-    }
-25%{
-    transform: rotate(60deg);
+        transform: rotate(60deg);
         transform-origin: top;
-    }
-   
 
-    50%{
-        transform: rotate(-60deg);
-        transform-origin: top;
     }
-   
-  
-    75%{
-        transform: rotate(0deg);
-        transform-origin: top;
-    }
+
 
     100%{
-        transform: rotate(60deg);
+        transform: rotate(-60deg);
         transform-origin: top;
     }
 }
@@ -58,6 +46,7 @@ body{
     justify-content: flex-start;
     height: 100vh;
     flex-direction: column;
+    flex-wrap: wrap;
 
 }
 
@@ -65,8 +54,7 @@ body{
     width: 28rem;
     height: 220px;
     position: relative;
-    background-color: black;
-    background-color: black;
+    
     /* border: 1px solid white; */
 }
 
@@ -80,7 +68,8 @@ body{
 }
 
 .textLogo{
-    width: 12.5rem;
+    width: 14.5rem;
+    height: 6rem;
     position: absolute;
     top:60px;
     left:180px;
@@ -102,7 +91,7 @@ body{
     color:white;
     position: absolute;
     bottom:15px;
-    left: 100px;
+    left: 120px;
 
 font-family:nunito;
 opacity: 0;
@@ -136,7 +125,11 @@ letter-spacing: 5.5px;
     
 .container{
     width: 300px;
+    position: absolute;
+    left: 100px;
+    top: 300px;
 }
+
 
 .logo{
     width: 5rem;
@@ -151,18 +144,22 @@ letter-spacing: 5.5px;
     position: absolute;
 font-family:nunito;
 opacity: 0;
-bottom: 30px;
-left: 50px;
+bottom: 32px;
+left: 67px;
 letter-spacing: 3px;
+font-size: 20px;
+
 }
 
 .textLogo{
-    width: 9rem;
+    width: 12rem;
         position: absolute;
         top:60px;
         left:130px;
         z-index: 1;
         opacity: 0;
+        height: 5rem;
+        margin-left: -10px;
     
     
 }
@@ -170,9 +167,31 @@ letter-spacing: 3px;
 .construction{
     width: 250px;
     height: 250px;
-    
+    animation: animate 3s infinite;
+    animation-direction: alternate;
+    animation-fill-mode:backwards;
+    animation-timing-function: ease;
+
 }
 
+@keyframes animate {
+    
+
+    0%{
+        transform: rotate(30deg);
+        transform-origin: top;
+
+    }
+
+
+    100%{
+        transform: rotate(-30deg);
+        transform-origin: top;
+    }
+
   }
+}
+ 
+
 
  
