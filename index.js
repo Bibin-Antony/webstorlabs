@@ -14,7 +14,6 @@ setInterval(() => {
 }, 1000);
 setInterval(() => {
   construction.style.opacity = "1";
-  construction.style.transition = "all 0.8s";
-  document.body.style.backgroundColor = "white";
+  construction.style.transition = "all 1s";
   document.body.style.transition = "1s";
 }, 2000);
