@@ -91,16 +91,18 @@ to{
 }
 
 }
-@media  screen and (max-width:1280px) {
+
+@media  screen and (1031px<=width<=1280px) {
 .birthday{
     position: absolute;
-    top: 630px;
+    top: 830px;
 }
 .underConstruction{
     height: 210px;
     width: 240px;
 }
 }
+
 @media screen and (max-width:415px){
     
 .centerDiv{
