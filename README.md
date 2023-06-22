@@ -39,6 +39,6 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 - LinkedIn: [Webstor Labs](https://www.linkedin.com/company/webstor-labs)
 - Twitter: [@WebstorLabs](https://twitter.com/WebstorLabs)
 
-We appreciate your interest in Webstor Labs and look forward to your contributions!!
+We appreciate your interest in Webstor Labs and look forward to your contributions!
 
 
